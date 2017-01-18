@@ -6,6 +6,7 @@ import time
 import codecs
 import requests
 
+# quote GyuHyun's
 class Movie:
 	def __init__(self, title, makeYear, nation, openYD, genre, form, grade):
 		self.title = title.encode('utf-8')
